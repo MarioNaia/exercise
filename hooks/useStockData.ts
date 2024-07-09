@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 
-const API_KEY = "J2HU72Z9PFG1KKXM"; // Replace with your Alpha Vantage API key
+const API_KEY = "DSFSD32SADSSA"; // Replace with your Alpha Vantage API key
 
 interface StockData {
   date: string;

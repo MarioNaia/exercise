@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_KEY = "J2HU72Z9PFG1KKXM"; 
+const API_KEY = "232323"; 
 
 export interface StockData {
   date: string;

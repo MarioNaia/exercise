@@ -6,7 +6,7 @@ type StockData = {
 };
 
 export async function getInitialData(symbol: string, numItems: number): Promise<StockData[]> {
-  const API_KEY = "J2HU72Z9PFG1KKXM";
+  const API_KEY = "ASDASD";
 
   let initialData: StockData[] = [];
   try {

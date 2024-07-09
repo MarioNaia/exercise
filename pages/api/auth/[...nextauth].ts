@@ -32,13 +32,13 @@ export default NextAuth({
 
         const user = {      
           id: "1",
-          userName: "Mario",
-          name: "mario@gmail.com",
-          email: "mario@gmail.com",
+          userName: "asd",
+          name: "asds@gmail.com",
+          email: "asd@gmail.com",
           address: "Malaga",
           zip: "123",
           role: "admin",
-          accessToken: "A21D23"}
+          accessToken: "1212"}
 
         if (user) {
           // Any object returned will be saved in `user` property of the JWT
