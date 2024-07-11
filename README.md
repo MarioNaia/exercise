@@ -11,39 +11,39 @@ Stock Tracker 1.0 is a web application that allows users to track stock prices o
 
 ## Folder Structure
 
-app
-├─ auth
-│ └─ signIn
-│ └─ page.tsx
-├─ dashboard
-│ ├─ page.tsx
-│ ├─ DashboardClient.tsx
-├─ AppBar.tsx
-├─ layout.tsx
-├─ LoginButton.tsx
-├─ page.tsx
-├─ Providers.tsx
-components
-└─ elements
-├─ Button.tsx
-└─ TextBox.tsx
-├─ StockChart.tsx
-├─ ThemeToggle.tsx
-context
-├─ ThemeContext.tsx
-├─ useRequireAuth.ts
-├─ useStockData.ts
-pages
-├─ api
-│ ├─ auth
-│ │ └─ [...nextauth].ts
-│ └─ hello.tsx
-styles
-├─ globals.css
-├─ Home.module.css
-types
-└─ next-auth.d.ts
-next-env.d.ts
+    app
+    ├─ auth
+    │ └─ signIn
+    │ └─ page.tsx
+    ├─ dashboard
+    │ ├─ page.tsx
+    │ ├─ DashboardClient.tsx
+    ├─ AppBar.tsx
+    ├─ layout.tsx
+    ├─ LoginButton.tsx
+    ├─ page.tsx
+    ├─ Providers.tsx
+    components
+    └─ elements
+    ├─ Button.tsx
+    └─ TextBox.tsx
+    ├─ StockChart.tsx
+    ├─ ThemeToggle.tsx
+    context
+    ├─ ThemeContext.tsx
+    ├─ useRequireAuth.ts
+    ├─ useStockData.ts
+    pages
+    ├─ api
+    │ ├─ auth
+    │ │ └─ [...nextauth].ts
+    │ └─ hello.tsx
+    styles
+    ├─ globals.css
+    ├─ Home.module.css
+    types
+    └─ next-auth.d.ts
+    next-env.d.ts
 
 
 ## Getting Started
